@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8d957562-6e06-4c68-a935-b75a8c215f0a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50078/Prepago.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="2bec7871-e6bb-4fbd-8d01-ab9bdd68f129" SourceId="1" SourceUrl="http://localhost:50078/Prepago.svc?wsdl" />
+    <MetadataFile FileName="Prepago.xsd" MetadataType="Schema" ID="112c4676-6bfc-4dd1-b586-aad3c2ba1bfb" SourceId="1" SourceUrl="http://localhost:50078/Prepago.svc?xsd=xsd0" />
+    <MetadataFile FileName="Prepago1.xsd" MetadataType="Schema" ID="f688cd3e-11d7-4a4c-bd84-2eface6ee94f" SourceId="1" SourceUrl="http://localhost:50078/Prepago.svc?xsd=xsd2" />
+    <MetadataFile FileName="Prepago2.xsd" MetadataType="Schema" ID="44ba778a-076b-45b2-b9ac-f2a3cd2e34c2" SourceId="1" SourceUrl="http://localhost:50078/Prepago.svc?xsd=xsd1" />
+    <MetadataFile FileName="Prepago.disco" MetadataType="Disco" ID="60d41587-4da3-4824-9944-e6ce6b4300bd" SourceId="1" SourceUrl="http://localhost:50078/Prepago.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

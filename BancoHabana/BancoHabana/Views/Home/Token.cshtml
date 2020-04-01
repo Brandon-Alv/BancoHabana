@@ -1,0 +1,83 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script type="text/javascript" src="~/Scripts/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" href="~/Content/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.theme-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/temafsc_3.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.external-png-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.icons-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.inline-png-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.structure-1.4.5.css">
+    <title>Token</title>
+    <style>
+        .foto {
+            margin-left: 20%;
+        }
+
+        h3 {
+            text-align: center;
+            align-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <div id="login" data-role="page">
+
+        <div data-role="header" data-position="fixed" data-theme="c">
+            <h3>Validar Token</h3>
+        </div>
+
+        <div data-role="content">
+            <div class="foto">
+                <br>
+                <br>
+                <br>
+
+                <img src="~/fotos/Captura.PNG" />
+
+                <br>
+                <br>
+                <br>
+            </div>
+            <form action="postToken" method="post">
+                <div>
+                    Token
+                    <input type="text" id="token" name="token" placeholder="Ingresar Token">
+                </div>
+                <br>
+
+                <div>
+                    <button>Entrar</button>
+                </div>
+
+            </form>
+
+            <br>
+
+            <div data-role="footer" data-theme="c" data-position="fixed">
+                Banco Rincón Habana
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

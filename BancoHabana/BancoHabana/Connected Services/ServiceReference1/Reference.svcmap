@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c2be7926-bae7-475e-a9b9-96dbedf55dbb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:53231/Agua.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Agua.xsd" MetadataType="Schema" ID="a8b0ed03-2aba-4843-b0ae-d0d292072534" SourceId="1" SourceUrl="http://localhost:53231/Agua.svc?xsd=xsd0" />
+    <MetadataFile FileName="Agua1.xsd" MetadataType="Schema" ID="01c0fbbb-1db1-4566-bd4d-ae6722a9b6d7" SourceId="1" SourceUrl="http://localhost:53231/Agua.svc?xsd=xsd1" />
+    <MetadataFile FileName="Agua2.xsd" MetadataType="Schema" ID="869bf948-707d-46ed-a070-d754c1c6c774" SourceId="1" SourceUrl="http://localhost:53231/Agua.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="9569abc6-3ccb-4134-a002-89eaed1601a6" SourceId="1" SourceUrl="http://localhost:53231/Agua.svc?wsdl" />
+    <MetadataFile FileName="Agua.disco" MetadataType="Disco" ID="905dd668-6af8-4e3d-a824-f53583e62576" SourceId="1" SourceUrl="http://localhost:53231/Agua.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

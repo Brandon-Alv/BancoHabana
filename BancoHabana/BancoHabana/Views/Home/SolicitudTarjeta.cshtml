@@ -1,0 +1,73 @@
+﻿@{ Layout = null;
+
+    List<BancoHabana.Models.Tarjetas> cuen = new List<BancoHabana.Models.Tarjetas>();
+    cuen = (List<BancoHabana.Models.Tarjetas>)Session["tarjetascliente"];
+
+    BancoHabana.Models.Cuentas cuentas = new BancoHabana.Models.Cuentas();
+
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script type="text/javascript" src="~/Scripts/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" href="~/Content/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.theme-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/temafsc_3.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.external-png-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.icons-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.inline-png-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.structure-1.4.5.css">
+    <style>
+        .foto {
+            margin-left: 20%;
+        }
+
+        h3 {
+            text-align: center;
+            align-content: center;
+        }
+    </style>
+    <title>Tarjetas</title>
+</head>
+
+<body>
+
+    
+        
+
+        <div id="Tarjetas1" data-role="page">
+            <div data-role="header" data-position="fixed" data-theme="c">
+                
+                <h3>Seleccione la Tarjeta para pagar el servicio</h3>
+            </div>
+            <div data-role="content">
+                <form action="postTarjetas" method="post">
+                    <div>
+
+                        <br> Seleccione Número de Tarjeta
+                        <select name="opcionesTarjeta" id="opcionesTarjeta" data-native-menu="false">
+
+                            @{
+                                foreach (var item in cuen)
+                                {
+                                    <option value="@item.numtargeta">@item.numtargeta</option>
+                                }
+                            }
+
+
+                        </select>
+
+                    </div>
+
+                    <br>
+                    <input type="submit" name="btnlogin" value="Entrar" />
+                </form>
+                    <a href="MenuProductos" data-role="button">Regresar</a>
+            </div>
+        </div>
+    
+</body>
+</html>

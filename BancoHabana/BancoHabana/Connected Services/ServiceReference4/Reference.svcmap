@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cebba8f8-1342-432c-809d-6b6e7c4ad8e0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49952/Luz.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Luz.xsd" MetadataType="Schema" ID="35d81493-7926-4a8a-8d49-83b7686aa402" SourceId="1" SourceUrl="http://localhost:49952/Luz.svc?xsd=xsd0" />
+    <MetadataFile FileName="Luz.disco" MetadataType="Disco" ID="c2af3d9b-006e-4274-a4da-4adf45c3aa62" SourceId="1" SourceUrl="http://localhost:49952/Luz.svc?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="784480d2-5736-45d5-bda2-f8d38dd8e593" SourceId="1" SourceUrl="http://localhost:49952/Luz.svc?wsdl" />
+    <MetadataFile FileName="Luz1.xsd" MetadataType="Schema" ID="1fa46647-2361-49db-8edc-3ecab4ea1483" SourceId="1" SourceUrl="http://localhost:49952/Luz.svc?xsd=xsd2" />
+    <MetadataFile FileName="Luz2.xsd" MetadataType="Schema" ID="b88a9926-2322-43d1-8a84-1dc9b6159dcf" SourceId="1" SourceUrl="http://localhost:49952/Luz.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

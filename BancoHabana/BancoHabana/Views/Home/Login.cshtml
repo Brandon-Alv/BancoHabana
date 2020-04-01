@@ -1,0 +1,90 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>JSP Page</title>
+    <script type="text/javascript" src="~/Scripts/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" href="~/Content/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.theme-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/temafsc_3.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.external-png-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.icons-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.inline-png-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.structure-1.4.5.css">
+    <title>Login</title>
+
+    <style>
+        .foto {
+            margin-left: 20%;
+        }
+
+        h3{
+            text-align:center;
+            align-content:center;
+        }
+        
+    </style>
+</head>
+<body>
+
+
+    <form action="postLogin" method="post">
+
+        <div id="login" data-role="page">
+
+            <div data-role="header" data-position="fixed" data-theme="c">
+                <h3>Login</h3> 
+            </div>
+
+            <div data-role="content">
+                <div class="foto">
+                    <br>
+                    <br>
+                    <br>
+
+                    <img src="~/fotos/Captura.PNG" />
+
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    Identificación
+                    <input type="text" id="cedula" name="cedula" placeholder="Cedula">
+                    Contraseña
+                    <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña">
+                </div>
+                <br>
+
+                <div>
+                    <button>Entrar</button>
+                    
+                    
+                </div>
+
+
+
+                <div>
+                    <a href="opciones" data-role="button">Recuperar Cuenta</a>
+                </div>
+                <br>
+
+                <div data-role="footer" data-theme="c" data-position="fixed">
+                    <h3>Banco Rincón Habana</h3>
+                </div>
+            </div>
+
+        </div>
+        
+    </form>
+
+
+</body>
+</html>

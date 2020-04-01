@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5df44733-487d-47fc-835d-a0a56189dd5b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:65384/Internet.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Internet.xsd" MetadataType="Schema" ID="73f39dbf-bcde-4b5e-9876-6429f2b26cc1" SourceId="1" SourceUrl="http://localhost:65384/Internet.svc?xsd=xsd2" />
+    <MetadataFile FileName="Internet.disco" MetadataType="Disco" ID="1d1462f8-791a-449e-8cd7-3be63acc7d09" SourceId="1" SourceUrl="http://localhost:65384/Internet.svc?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="e272d624-d279-4bf1-a604-763efdf3252d" SourceId="1" SourceUrl="http://localhost:65384/Internet.svc?wsdl" />
+    <MetadataFile FileName="Internet1.xsd" MetadataType="Schema" ID="f45606a7-2581-4bf0-8521-f76a2b63c8d0" SourceId="1" SourceUrl="http://localhost:65384/Internet.svc?xsd=xsd1" />
+    <MetadataFile FileName="Internet2.xsd" MetadataType="Schema" ID="207f0793-c56a-454a-9a0d-e55ba0eb63a9" SourceId="1" SourceUrl="http://localhost:65384/Internet.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

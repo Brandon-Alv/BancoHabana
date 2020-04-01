@@ -1,0 +1,55 @@
+﻿@{ Layout = null;
+
+    BancoHabana.Models.Cuentas cuentas = new BancoHabana.Models.Cuentas();
+
+    cuentas = (BancoHabana.Models.Cuentas)Session["cuentasdatos"];
+
+
+
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script type="text/javascript" src="~/Scripts/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" href="~/Content/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.theme-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/temafsc_3.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.external-png-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.icons-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.inline-png-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.structure-1.4.5.css">
+    <style>
+        .foto {
+            margin-left: 20%;
+        }
+
+        h3 {
+            text-align: center;
+            align-content: center;
+        }
+    </style>
+    <title>DatosCuentas</title>
+</head>
+<body>
+    <div id="DatosCuenta" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="c">
+            <h3>Cuentas</h3>
+        </div>
+        <div data-role="content">
+            <div>
+                <label>Titular</label>
+                <input type="text" id="txtDeuda1" value="@cuentas.titular" name="txtDeuda1" readonly="readonly">
+                <label>Saldo</label>
+                <input type="text" name="txtSaldo" value="@cuentas.saldo" id="txtSaldo" readonly="readonly">
+            </div>
+            <br>
+            <a href="MenuProductos" data-role="button">Regresar</a>
+        </div>
+    </div>
+</body>
+</html>

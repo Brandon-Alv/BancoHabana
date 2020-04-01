@@ -1,0 +1,58 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script type="text/javascript" src="~/Scripts/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" href="~/Content/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.theme-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/temafsc_3.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.external-png-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.icons-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.inline-png-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.structure-1.4.5.css">
+    <style>
+        .foto {
+            margin-left: 20%;
+        }
+
+        h3 {
+            text-align: center;
+            align-content: center;
+        }
+    </style>
+    <title>ReposicionTarjetas</title>
+</head>
+<body>
+    <div id="Solicitarreposicion" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="c">
+            <h3>Reposicion</h3>
+        </div>
+        <div data-role="content" id="" data-theme="c">
+            <br>
+            <div>
+                N° Targeta <input type="text" id="numerotargeta" name="numerotargeta" placeholder="N° Targeta">
+            </div>
+            <div>
+                Descripción <textarea name="Descripcion" rows="10" cols="40" placeholder="Descripcion"></textarea>
+            </div>
+            <br>
+            <a href="#" data-role="button">Solicitar</a>
+            <br>
+            <a href="MenuGestiones" data-role="button">Regresar</a>
+        </div>
+        <br>
+        <br>
+
+        <div data-role="footer" data-theme="c" data-position="fixed">
+            Banco Rincon Habana
+        </div>
+    </div>
+</body>
+</html>

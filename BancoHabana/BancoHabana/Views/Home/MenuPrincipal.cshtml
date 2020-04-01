@@ -1,0 +1,87 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script type="text/javascript" src="~/Scripts/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" href="~/Content/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.theme-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/temafsc_3.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.external-png-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.icons-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.inline-png-1.4.5.css">
+    <link rel="stylesheet" href="~/Content/jquery.mobile.structure-1.4.5.css">
+    <style>
+        .foto {
+            margin-left: 20%;
+        }
+
+        h3 {
+            text-align: center;
+            align-content: center;
+        }
+    </style>
+    <title>MenuPrincipal</title>
+</head>
+<body>
+    <div id="Menu" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="c">
+            <h3>Menu</h3>
+        </div>
+        <div data-role="content" id="" data-theme="c">
+            <div class="foto">
+                <br>
+                <br>
+                <br>
+
+                <img src="~/fotos/Captura.PNG" />
+
+                <br>
+                <br>
+                <br>
+            </div>
+            
+            <ul data-role="listview">
+                <li data-role="list-divider">Menu</li>
+                <li><a href="MenuProductos">Información Productos</a></li>
+                <li><a href="MenuTransaccional">Información Transaccional</a></li>
+                <li><a href="MenuServicios">Pago Servicios</a></li>
+                <li><a href="MenuGestiones">Gestiones</a></li>
+                <li><a href="Login">Cerrar Sesión</a></li>
+            </ul>
+            <br>
+            <br>
+            @if (ViewBag.Error != null)
+            {
+                <div mbsc-form>
+                    <div class="mbsc-form-group">
+                        <div class="mbsc-form-group-title"></div>
+                        <div class="mbsc-btn-group-block">
+                            <button mbsc-button id="md-notif-alert">@ViewBag.Error</button>
+
+                        </div>
+                    </div>
+                </div>
+            }
+
+            <br>
+            <br>
+
+
+        </div>
+        <br>
+        <br>
+
+        <div data-role="footer" data-theme="c" data-position="fixed">
+            Banco Rincón Habana
+        </div>
+    </div>
+
+</body>
+</html>
